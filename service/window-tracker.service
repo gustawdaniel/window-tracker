@@ -1,0 +1,16 @@
+[Unit]
+Description=Hyprland Window Focus & Time Tracker (SQLite WAL to ClickHouse)
+Documentation=https://github.com/gustawdaniel/window-tracker
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/window_tracker.py
+Restart=always
+RestartSec=3
+Environment=OTLP_LOGS_URL=http://localhost:4318/v1/logs
+Environment=WINDOW_TRACKER_DATA_DIR=%h/.local/share/window-tracker
+
+[Install]
+WantedBy=default.target

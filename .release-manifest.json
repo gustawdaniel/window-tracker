@@ -1,0 +1,173 @@
+{
+  "target": "window-tracker",
+  "repo": "gustawdaniel/window-tracker",
+  "files_count": 33,
+  "total_size_bytes": 188580,
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1794,
+      "sha256": "e5bb671e2c220f3409dd82c30f49255eba3d1596142011e1adc5d23ec083d350"
+    },
+    {
+      "path": "LICENSE",
+      "size": 3077,
+      "sha256": "77e22acd975dbe5dc5c3b48d6bd84d0262971c139463e1f848203e67d8e86b1f"
+    },
+    {
+      "path": "README.md",
+      "size": 5336,
+      "sha256": "cf04c94da20ab7b182d438e265c6661e847e537cf196de589b57db2b0c054ae0"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 863,
+      "sha256": "518f69d89ff25f7cdcfbaed937df7ead83ce5970739b443977958d18321e589f"
+    },
+    {
+      "path": "shell/benchmark.sh",
+      "size": 3605,
+      "sha256": "fa3df386764dca0280448c82cbf307ddeeb21a4c6483768f4edc5de56e46d2c8"
+    },
+    {
+      "path": "shell/brain_cwd.bash",
+      "size": 1305,
+      "sha256": "21b02ef1973999e6035228373de6dddcda0824f2d4e64ebdb040d956560198bc"
+    },
+    {
+      "path": "shell/brain_cwd.fish",
+      "size": 1211,
+      "sha256": "76e0a7ed2fb53645441def097bd979b8624794a7655ba0b086d668569660a921"
+    },
+    {
+      "path": "shell/brain_cwd.zsh",
+      "size": 1219,
+      "sha256": "4e4a0c25ee7d434c734b4ae2bc4d56b675bea6d94ccee40249f224fde8914008"
+    },
+    {
+      "path": "shell/install.sh",
+      "size": 1654,
+      "sha256": "328c19ff866c8941bc55d728e3fb614f2190538d6713aa8fa5fefd4d576be55d"
+    },
+    {
+      "path": "svelte-dashboard/.gitignore",
+      "size": 72,
+      "sha256": "84a34c1ce8fc35e68ffd1b20aa14179147160e06a2343135662cb43ef003ddbe"
+    },
+    {
+      "path": "svelte-dashboard/.npmrc",
+      "size": 42,
+      "sha256": "0de87c12fc4425611eea554b2624bbf2665b8e6567b8957ba9c26ebb0cbb42fd"
+    },
+    {
+      "path": "svelte-dashboard/Dockerfile",
+      "size": 1344,
+      "sha256": "ff2a98b28a23be082fa1509da618bf11cb66ec29ad0b87db7979308bee8e16d3"
+    },
+    {
+      "path": "svelte-dashboard/jsconfig.json",
+      "size": 305,
+      "sha256": "7c46e5fc665b2429eb8d4e66f493141a8a210d2fbf42e42a94f96771d6b7141e"
+    },
+    {
+      "path": "svelte-dashboard/package.json",
+      "size": 1016,
+      "sha256": "1035c4687c1433887b36c07a136995b103fa1f4f75eb7c753a39d0d96e02743d"
+    },
+    {
+      "path": "svelte-dashboard/pnpm-lock.yaml",
+      "size": 38694,
+      "sha256": "7a13fcdfe69abd61db17b5680776c54143a383aee26a67313c47a82adab7a1dc"
+    },
+    {
+      "path": "svelte-dashboard/svelte.config.js",
+      "size": 446,
+      "sha256": "91c67918b04b479139faaffe5f46f14127cf3f0a52b7e9b9fdca419f8618e71d"
+    },
+    {
+      "path": "svelte-dashboard/vite.config.js",
+      "size": 227,
+      "sha256": "bcbdfc5cd64e5f92660c013a1df951563ad2d7f603e2b47ae6a227a0431d3683"
+    },
+    {
+      "path": "svelte-dashboard/src/app.css",
+      "size": 2055,
+      "sha256": "8313ff2ab3a821e7340acdbbaa98f70a058d0468a24ee87b7de94f756ad2ee41"
+    },
+    {
+      "path": "svelte-dashboard/src/app.html",
+      "size": 446,
+      "sha256": "acf7bf913d836c2f4afc716c8ba75ef604ece301d8ba9a8b362f78461c237307"
+    },
+    {
+      "path": "svelte-dashboard/src/lib/backend.js",
+      "size": 13801,
+      "sha256": "5eac5c4599823b3f55aa7d83f8e72c176857354c51326329760398d128d8c292"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/+layout.svelte",
+      "size": 3154,
+      "sha256": "76f87264b68166d5ffd886e010ecb298a64e4e4c328b7d5cc54c4ae386c80f60"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/+page.svelte",
+      "size": 38649,
+      "sha256": "f320920dfb451d55234e643fc633981c2f88674addb75937d9b9e422448d8dca"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/api/stream/+server.js",
+      "size": 3546,
+      "sha256": "d3d28fbd87ba6ede6aaf78b5a413d05da727fb4cd2067858b4ed5b8c4d0e607b"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/api/history/+server.js",
+      "size": 2134,
+      "sha256": "5d66a56ad89514d8094faafe4e1368cf9366013d05e7581b6b0bf1a182d6938f"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/api/active/+server.js",
+      "size": 1459,
+      "sha256": "bf11ce302e1d679f65d88dedc614af55034505004898f594168041f560e3d91a"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/api/timeline/+server.js",
+      "size": 2801,
+      "sha256": "abaeff556c97f1aead1ef110614df724681db68f6922628cb3e49e1bd7da4c71"
+    },
+    {
+      "path": "svelte-dashboard/src/routes/api/stats/+server.js",
+      "size": 6366,
+      "sha256": "3e3574237ce300f55c08b902c435f60ef11852ecfbd1201a20d00728be0628a4"
+    },
+    {
+      "path": "service/.gitignore",
+      "size": 5,
+      "sha256": "aaccb1a00557171b31d00a99a6a2666856e417964732490685cdcba9f02de491"
+    },
+    {
+      "path": "service/Makefile",
+      "size": 2683,
+      "sha256": "1fb12622a44d482a36d8c6df0f85ad064142ab69980936a3f03b1f6c40af2389"
+    },
+    {
+      "path": "service/com.brain.window-tracker.plist.example",
+      "size": 1108,
+      "sha256": "2f3231d0b36dc079d17de85cd36d1a1c4f8c18989b6bf452ae434f90e98a8983"
+    },
+    {
+      "path": "service/mac_window_helper.swift",
+      "size": 3671,
+      "sha256": "4807971959cb7ae5f52cef41098945a677d1c08fb5d5bdde4da256ef4ff24ca9"
+    },
+    {
+      "path": "service/window-tracker.service",
+      "size": 458,
+      "sha256": "c94ba8d1cec98f76f9ee214d26241449841f66a23fe7a5c4bcedc6f30ab9b2e5"
+    },
+    {
+      "path": "service/window_tracker.py",
+      "size": 44034,
+      "sha256": "c1cafe46cc76b1a20e32750d92e9c667b6dbc121ad9d03803a495592a88bdb80"
+    }
+  ]
+}
